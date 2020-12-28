@@ -14,8 +14,16 @@ This Notebook:
 *   Does Sentiment Analysis on those Tweets.
 *   Provides some visualizations in an interactive format to get a 'pulse' of what's happening.
 
-Tweepy - scrape Twitter data 
+Tweepy - scrape Twitter data.
+
 Flair - NER / Sentiment Analysis. 
-Seaborn - visualizations
+
+Seaborn - visualizations.
+
+
+The Twitter scrape code here was taken from: https://bhaskarvk.github.io/2015/01/how-to-use-twitters-search-rest-api-most-effectively.
+My thanks to the author.
+
+We need to provide a Search term and a Max Tweet count. Twitter lets you to request 45,000 tweets every 15 minutes so setting something below that works.
 
  
